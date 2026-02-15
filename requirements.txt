@@ -1,0 +1,13 @@
+# Core Dependencies
+PySide6>=6.10.2
+PySide6-Addons>=6.10.2
+minecraft-launcher-lib>=8.0.0
+requests>=2.32.5
+rarfile>=4.2
+Markdown>=3.10.2
+keyring>=25.7.0
+
+# Development Dependencies
+flake8>=7.3.0
+
+# pip install -r requirements.txt
