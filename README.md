@@ -152,7 +152,6 @@ obsidian-launcher/
 ├── resources/
 │   └── background.png      # UI background image
 ├── requirements.txt        # Python dependencies
-├── CLAUDE.md              # AI coding assistant instructions
 └── README.md              # This file
 ```
 
@@ -217,3 +216,4 @@ If you encounter any issues or have questions:
 **Built with ❤️ for the Minecraft community**
 
 </div>
+
