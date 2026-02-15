@@ -11,7 +11,6 @@
 
 [Features](#features) • [Installation](#installation) •
 [Usage](#usage) • [Screenshots](#screenshots) •
-[Contributing](#contributing)
 
 </div>
 
@@ -175,21 +174,6 @@ This project follows **PEP 8** style guidelines:
 
 *Coming soon - screenshots of the launcher interface*
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or
-open issues for bugs and feature requests.
-
-### Development Setup
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes and test thoroughly
-4. Ensure code follows PEP 8: `flake8 --max-line-length=79`
-5. Commit your changes: `git commit -m "Add feature"`
-6. Push to your fork: `git push origin feature-name`
-7. Open a pull request
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file
@@ -213,7 +197,8 @@ If you encounter any issues or have questions:
 
 <div align="center">
 
-**Built with ❤️ for the Minecraft community**
+**A personal passion project inspired by the wonderful work from the Minecraft Community**
 
 </div>
+
 
