@@ -133,25 +133,48 @@ descriptions
 ## Project Structure
 
 ```
-obsidian-launcher/
-├── main.py                 # Main application entry point
-├── core/
-│   ├── launcher.py         # Minecraft installation and launch logic
-│   ├── api.py              # Modrinth API client
-│   ├── manifest.py         # Local mod database management
-│   ├── downloader.py       # File download worker
-│   └── auth.py             # Microsoft authentication
-├── ui/
-│   ├── browser.py          # Mod browsing interface
-│   ├── installed.py        # Installed mods view
-│   ├── instances.py        # Instance management
-│   ├── console.py          # Game console output
-│   ├── settings.py         # Launcher settings
-│   └── dialogs.py          # Progress and utility dialogs
-├── resources/
-│   └── background.png      # UI background image
-├── requirements.txt        # Python dependencies
-└── README.md              # This file
+MINECRAFT LAUNCHER/
+├── main.py                     # Main application entry point
+├── requirements.txt           # Python dependencies
+├── .flake8                     # Code style configuration
+├── .gitignore                  # Git ignore rules
+├── .pre-commit-config.yaml     # Pre-commit hooks configuration
+├── run_debug.bat               # Debug launch script
+├── core/                       # Core application logic
+│   ├── api.py                  # Modrinth API client
+│   ├── auth.py                 # Microsoft authentication
+│   ├── downloader.py           # File download worker
+│   ├── instance_manager.py     # Instance management logic
+│   ├── launcher.py             # Minecraft installation and launch
+│   ├── logger.py               # Logging configuration
+│   ├── manifest.py             # Local mod database management
+│   ├── minecraft_server.py     # Minecraft server management
+│   ├── server_api.py           # Server API integration
+│   ├── server_manager.py       # Server management logic
+│   └── server_types/           # Server type implementations
+│       ├── base.py             # Base server type
+│       ├── fabric.py           # Fabric server support
+│       └── vanilla.py          # Vanilla server support
+├── ui/                         # User interface components
+│   ├── animated_button.py      # Custom animated button widget
+│   ├── browser.py              # Mod browsing interface
+│   ├── console.py              # Game console output
+│   ├── dependency_resolver.py  # Mod dependency resolution UI
+│   ├── dialogs.py              # Progress and utility dialogs
+│   ├── icon_picker_dialog.py   # Icon selection dialog
+│   ├── icons.py                # Icon resources
+│   ├── installed.py            # Installed mods view
+│   ├── instance_selector_dropdown.py  # Instance selection dropdown
+│   ├── instance_settings_dialog.py     # Instance configuration dialog
+│   ├── instances.py            # Instance management interface
+│   ├── server_card.py          # Server display card
+│   ├── server_console.py       # Server console interface
+│   ├── server_manager_view.py  # Server management interface
+│   ├── server_settings_dialog.py     # Server configuration dialog
+│   ├── settings.py             # Launcher settings interface
+│   └── vector_icons.py         # Vector icon definitions
+├── images/                     # Image assets
+└── logs/                       # Application logs
 ```
 
 ## Configuration
@@ -205,6 +228,7 @@ If you encounter any issues or have questions:
 **A personal passion project inspired by the wonderful work from the Minecraft Community**
 
 </div>
+
 
 
 
