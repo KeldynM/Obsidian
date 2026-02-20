@@ -197,11 +197,17 @@ This project follows **PEP 8** style guidelines:
 ## Screenshots
 
   ![Launcher Main Window](images/screenshot_1.png)
+  
   ![Mod Browser](images/screenshot_2.png)
+  
   ![Mod Management](images/screenshot_3.png)
+  
   ![Game Launch](images/screenshot_4.png)
+  
   ![Server Management](images/screenshot_5.png)
+  
   ![Settings](images/screenshot_6.png)
+  
   ![Installer](images/screenshot_7.png)
 
 ## License
@@ -230,6 +236,7 @@ If you encounter any issues or have questions:
 **A personal passion project inspired by the wonderful work from the Minecraft Community**
 
 </div>
+
 
 
 
