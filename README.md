@@ -6,6 +6,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
 ![PySide6](https://img.shields.io/badge/PySide6-Qt-41cd52?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)
+![PEP 8](https://img.shields.io/badge/Code%20Style-PEP%208-orange?style=for-the-badge)
 
 **A modern, feature-rich Minecraft launcher built with Python and Qt**
 
@@ -228,6 +229,7 @@ If you encounter any issues or have questions:
 **A personal passion project inspired by the wonderful work from the Minecraft Community**
 
 </div>
+
 
 
 
